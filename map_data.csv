@@ -10,7 +10,7 @@ number_of_stations,shinkansen_line,prefecture,avg_distance_from_tokyo_st,company
 4,Sanyo,Hyogo,627.775,JR_West,兵庫県,神戸市,34.691390000000006,135.18306
 2,Sanyo,Okayama,745.5,JR_West,岡山県,岡山市,34.66167,133.935
 5,Sanyo,Hiroshima,836.38,JR_West,広島県,広島市,34.396390000000004,132.45944
-5,Sanyo,Yamaguchi,1019.22,JR_West,山口県,山口市,34.18583,131.47139;;;;;;;;;;;;
+5,Sanyo,Yamaguchi,1019.22,JR_West,山口県,山口市,34.18583,131.47139
 5,Sanyo;Sanyo-Kyushu;Kyushu,Fukuoka,1192.76,JR_West;JR_Kyushu,福岡県,福岡市,33.606390000000005,130.41806
 3,Tohoku-Joetsu;Joetsu,Saitama,60.3333333333333,JR_East,埼玉県,さいたま市,35.85694,139.64889
 3,Tohoku,Tochigi,115.966666666667,JR_East,栃木県,宇都宮市,36.56583,139.88361
