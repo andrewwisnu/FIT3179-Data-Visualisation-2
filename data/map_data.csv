@@ -18,7 +18,7 @@ number_of_stations,shinkansen_line,prefecture,avg_distance_from_tokyo_st,company
 4,Tohoku,Miyagi (宮城県),367.45,JR_East,38.26889,140.87194
 8,Tohoku; Tohoku-Akita; Akita,Iwate (岩手県),519.5875,JR_East,39.70361,141.1525
 4,Tohoku; Tohoku-Hokkaido; Hokkaido,Aomori (青森県),691.45,JR_East; JR_Hokkaido,40.82444,140.74
-3,Joetsu; Joetsu-Hokuriku; Hokuriku,Gunma (群馬県),396.3,JR_East,36.39111,139.06083
+3,Joetsu; Joetsu-Hokuriku; Hokuriku,Gunma (群馬県),126.7,JR_East,36.39111,139.06083
 7,Joetsu; Hokuriku,Niigata (新潟県),275.314285714286,JR_East; JR_West,37.90222,139.02361000000002
 10,Yamagata,Yamagata (山形県),363.37,JR_East,38.24056,140.36333
 4,Akita,Akita (秋田県),610.75,JR_East,39.71861,140.1025
