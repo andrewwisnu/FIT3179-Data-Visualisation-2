@@ -17,14 +17,14 @@
         "url": "https://raw.githubusercontent.com/andrewwisnu/FIT3179-Data-Visualisation-2/main/topojson/japan_sea.json",
         "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
       },
-      "mark": {"type": "geoshape", "fill": "#d3e4b0", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": "#f5f5dc", "stroke": "#c5c5c5"}
     },
     {
       "data": {
         "url": "https://raw.githubusercontent.com/andrewwisnu/FIT3179-Data-Visualisation-2/main/topojson/japan_sea.json",
         "format": {"type": "topojson", "feature": "japan"}
       },
-      "mark": {"type": "geoshape", "fill": "#d3e4b0", "stroke": "white"}
+      "mark": {"type": "geoshape", "fill": "#f5f5dc", "stroke": "#c5c5c5"}
     },
     {
       "data": {
