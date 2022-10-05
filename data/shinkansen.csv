@@ -74,36 +74,36 @@ Yamagata,Yamagata_Shinkansen,1992,Yamagata (山形県),359.9,JR_East,38.24056,14
 Tendo,Yamagata_Shinkansen,1999,Yamagata (山形県),373.2,JR_East,38.24056,140.36333
 Sakuranbo-Higashine,Yamagata_Shinkansen,1999,Yamagata (山形県),380.9,JR_East,38.24056,140.36333
 Murayama,Yamagata_Shinkansen,1999,Yamagata (山形県),386.3,JR_East,38.24056,140.36333
-Oishida,Yamagata_Shinkansen,1999,Yamagata,399.7,JR_East,山形県,山形市,38.24056,140.36333
-Shinjo,Yamagata_Shinkansen,1999,Yamagata,421.4,JR_East,山形県,山形市,38.24056,140.36333
-Shizukuishi,Akita_Shinkansen,1997,Iwate,551.3,JR_East,岩手県,盛岡市,39.70361,141.1525
-Tazawako,Akita_Shinkansen,1997,Akita,575.4,JR_East,秋田県,秋田市,39.71861,140.1025
-Kakunodate,Akita_Shinkansen,1997,Akita,594.1,JR_East,秋田県,秋田市,39.71861,140.1025
-Omagari,Akita_Shinkansen,1997,Akita,610.9,JR_East,秋田県,秋田市,39.71861,140.1025
-Akita,Akita_Shinkansen,1997,Akita,662.6,JR_East,秋田県,秋田市,39.71861,140.1025
-Annaka-Haruna,Hokuriku_Shinkansen,1997,Gunma,123.5,JR_East,群馬県,前橋市,36.39111,139.06083
-Karuizawa,Hokuriku_Shinkansen,1997,Nagano,146.8,JR_East,長野県,長野市,36.65139,138.18111000000002
-Sakudaira,Hokuriku_Shinkansen,1997,Nagano,164.4,JR_East,長野県,長野市,36.65139,138.18111000000002
-Ueda,Hokuriku_Shinkansen,1997,Nagano,189.2,JR_East,長野県,長野市,36.65139,138.18111000000002
-Nagano,Hokuriku_Shinkansen,1997,Nagano,222.4,JR_East,長野県,長野市,36.65139,138.18111000000002
-Iyama,Hokuriku_Shinkansen,2015,Nagano,252.3,JR_East,長野県,長野市,36.65139,138.18111000000002
-Joetsu-Myoko,Hokuriku_Shinkansen,2015,Niigata,281.9,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Itoigawa,Hokuriku_Shinkansen,2015,Niigata,318.9,JR_West,新潟県,新潟市,37.90222,139.02361000000002
-Kurobe-Unazukionsen,Hokuriku_Shinkansen,2015,Toyama,358.1,JR_West,富山県,富山市,36.69528,137.21139
-Toyama,Hokuriku_Shinkansen,2015,Toyama,391.9,JR_West,富山県,富山市,36.69528,137.21139
-Shin-Takaoka,Hokuriku_Shinkansen,2015,Toyama,410.8,JR_West,富山県,富山市,36.69528,137.21139
-Kanazawa,Hokuriku_Shinkansen,2015,Ishikawa,450.5,JR_West,石川県,金沢市,36.594440000000006,136.62556
-Shin-Tosu,Kyushu_Shinkansen,2011,Saga,1203.5,JR_Kyushu,佐賀県,佐賀市,33.24944,130.29889
-Kurume,Kyushu_Shinkansen,2011,Fukuoka,1210.6,JR_Kyushu,福岡県,福岡市,33.606390000000005,130.41806
-Chikugo-Funagoya,Kyushu_Shinkansen,2011,Fukuoka,1226.4,JR_Kyushu,福岡県,福岡市,33.606390000000005,130.41806
-Shin-Omuta,Kyushu_Shinkansen,2011,Fukuoka,1244.2,JR_Kyushu,福岡県,福岡市,33.606390000000005,130.41806
-Shin-Tamana,Kyushu_Shinkansen,2011,Kumamoto,1265.3,JR_Kyushu,熊本県,熊本市,32.78972,130.74167
-Kumamoto,Kyushu_Shinkansen,2011,Kumamoto,1293.3,JR_Kyushu,熊本県,熊本市,32.78972,130.74167
-Shin-Yatsushiro,Kyushu_Shinkansen,2004,Kumamoto,1326.2,JR_Kyushu,熊本県,熊本市,32.78972,130.74167
-Shin-Minamata,Kyushu_Shinkansen,2004,Kumamoto,1369.0,JR_Kyushu,熊本県,熊本市,32.78972,130.74167
-Izumi,Kyushu_Shinkansen,2004,Kagoshima,1385.0,JR_Kyushu,鹿児島県,鹿児島市,31.56028,130.55806
-Sendai,Kyushu_Shinkansen,2004,Kagoshima,1417.7,JR_Kyushu,鹿児島県,鹿児島市,31.56028,130.55806
-Kagoshima-Chuo,Kyushu_Shinkansen,2004,Kagoshima,1463.8,JR_Kyushu,鹿児島県,鹿児島市,31.56028,130.55806
-Okutsugaru-Imabetsu,Hokkaido_Shinkansen,2016,Aomori,752.2,JR_Hokkaido,青森県,青森市,40.82444,140.74
-Kikonai,Hokkaido_Shinkansen,2016,Hokkaido,827.0,JR_Hokkaido,北海道,札幌市,43.06417,141.34694
-Shin-Hakodate-Hokuto,Hokkaido_Shinkansen,2016,Hokkaido,862.5,JR_Hokkaido,北海道,札幌市,43.06417,141.34694
+Oishida,Yamagata_Shinkansen,1999,Yamagata (山形県),399.7,JR_East,38.24056,140.36333
+Shinjo,Yamagata_Shinkansen,1999,Yamagata (山形県),421.4,JR_East,38.24056,140.36333
+Shizukuishi,Akita_Shinkansen,1997,Iwate (岩手県),551.3,JR_East,39.70361,141.1525
+Tazawako,Akita_Shinkansen,1997,Akita (秋田県),575.4,JR_East,39.71861,140.1025
+Kakunodate,Akita_Shinkansen,1997,Akita (秋田県),594.1,JR_East,39.71861,140.1025
+Omagari,Akita_Shinkansen,1997,Akita (秋田県),610.9,JR_East,39.71861,140.1025
+Akita,Akita_Shinkansen,1997,Akita (秋田県),662.6,JR_East,39.71861,140.1025
+Annaka-Haruna,Hokuriku_Shinkansen,1997,Gunma (群馬県),123.5,JR_East,36.39111,139.06083
+Karuizawa,Hokuriku_Shinkansen,1997,Nagano (長野県),146.8,JR_East,36.65139,138.18111000000002
+Sakudaira,Hokuriku_Shinkansen,1997,Nagano (長野県),164.4,JR_East,36.65139,138.18111000000002
+Ueda,Hokuriku_Shinkansen,1997,Nagano (長野県),189.2,JR_East,36.65139,138.18111000000002
+Nagano,Hokuriku_Shinkansen,1997,Nagano (長野県),222.4,JR_East,36.65139,138.18111000000002
+Iyama,Hokuriku_Shinkansen,2015,Nagano (長野県),252.3,JR_East,36.65139,138.18111000000002
+Joetsu-Myoko,Hokuriku_Shinkansen,2015,Niigata (新潟県),281.9,JR_East,37.90222,139.02361000000002
+Itoigawa,Hokuriku_Shinkansen,2015,Niigata (新潟県),318.9,JR_West,37.90222,139.02361000000002
+Kurobe-Unazukionsen,Hokuriku_Shinkansen,2015,Toyama (富山県),358.1,JR_West,36.69528,137.21139
+Toyama,Hokuriku_Shinkansen,2015,Toyama (富山県),391.9,JR_West,36.69528,137.21139
+Shin-Takaoka,Hokuriku_Shinkansen,2015,Toyama (富山県),410.8,JR_West,36.69528,137.21139
+Kanazawa,Hokuriku_Shinkansen,2015,Ishikawa (石川県),450.5,JR_West,36.594440000000006,136.62556
+Shin-Tosu,Kyushu_Shinkansen,2011,Saga (佐賀県),1203.5,JR_Kyushu,33.24944,130.29889
+Kurume,Kyushu_Shinkansen,2011,Fukuoka (福岡県),1210.6,JR_Kyushu,33.606390000000005,130.41806
+Chikugo-Funagoya,Kyushu_Shinkansen,2011,Fukuoka (福岡県),1226.4,JR_Kyushu,33.606390000000005,130.41806
+Shin-Omuta,Kyushu_Shinkansen,2011,Fukuoka (福岡県),1244.2,JR_Kyushu,33.606390000000005,130.41806
+Shin-Tamana,Kyushu_Shinkansen,2011,Kumamoto (熊本県),1265.3,JR_Kyushu,32.78972,130.74167
+Kumamoto,Kyushu_Shinkansen,2011,Kumamoto (熊本県),1293.3,JR_Kyushu,32.78972,130.74167
+Shin-Yatsushiro,Kyushu_Shinkansen,2004,Kumamoto (熊本県),1326.2,JR_Kyushu,32.78972,130.74167
+Shin-Minamata,Kyushu_Shinkansen,2004,Kumamoto (熊本県),1369.0,JR_Kyushu,32.78972,130.74167
+Izumi,Kyushu_Shinkansen,2004,Kagoshima (鹿児島県),1385.0,JR_Kyushu,31.56028,130.55806
+Sendai,Kyushu_Shinkansen,2004,Kagoshima (鹿児島県),1417.7,JR_Kyushu,31.56028,130.55806
+Kagoshima-Chuo,Kyushu_Shinkansen,2004,Kagoshima (鹿児島県),1463.8,JR_Kyushu,31.56028,130.55806
+Okutsugaru-Imabetsu,Hokkaido_Shinkansen,2016,Aomori (青森県),752.2,JR_Hokkaido,40.82444,140.74
+Kikonai,Hokkaido_Shinkansen,2016,Hokkaido (北海道),827.0,JR_Hokkaido,43.06417,141.34694
+Shin-Hakodate-Hokuto,Hokkaido_Shinkansen,2016,Hokkaido (北海道),862.5,JR_Hokkaido,43.06417,141.34694
