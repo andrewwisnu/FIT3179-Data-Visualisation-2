@@ -1,79 +1,79 @@
-station_name,shinkansen_line,year,prefecture,distance_from_tokyo_st,company,prefecture_jp,city,latitude,longitude
-Tokyo,Tokaido_Shinkansen,1964,Tokyo,0.0,JR_Central,東京都,新宿区,35.689440000000005,139.69167
-Shinagawa,Tokaido_Shinkansen,2003,Tokyo,6.8,JR_Central,東京都,新宿区,35.689440000000005,139.69167
-Shin-Yokohama,Tokaido_Shinkansen,1964,Kanagawa,28.8,JR_Central,神奈川県,横浜市,35.44778,139.6425
-Odawara,Tokaido_Shinkansen,1964,Kanagawa,83.9,JR_Central,神奈川県,横浜市,35.44778,139.6425
-Atami,Tokaido_Shinkansen,1964,Shizuoka,104.6,JR_Central,静岡県,静岡市,34.97694,138.38306
-Mishima,Tokaido_Shinkansen,1969,Shizuoka,120.7,JR_Central,静岡県,静岡市,34.97694,138.38306
-Shin-Fuji,Tokaido_Shinkansen,1988,Shizuoka,146.2,JR_Central,静岡県,静岡市,34.97694,138.38306
-Shizuoka,Tokaido_Shinkansen,1964,Shizuoka,180.2,JR_Central,静岡県,静岡市,34.97694,138.38306
-Kakegawa,Tokaido_Shinkansen,1988,Shizuoka,229.3,JR_Central,静岡県,静岡市,34.97694,138.38306
-Hamamatsu,Tokaido_Shinkansen,1964,Shizuoka,257.1,JR_Central,静岡県,静岡市,34.97694,138.38306
-Toyohashi,Tokaido_Shinkansen,1964,Aichi,293.6,JR_Central,愛知県,名古屋市,35.18028,136.90667
-Mikawa-Anjo,Tokaido_Shinkansen,1988,Aichi,336.3,JR_Central,愛知県,名古屋市,35.18028,136.90667
-Nagoya,Tokaido_Shinkansen,1964,Aichi,336.0,JR_Central,愛知県,名古屋市,35.18028,136.90667
-Gifu-Hashima,Tokaido_Shinkansen,1964,Gifu,396.3,JR_Central,岐阜県,岐阜市,35.39111,136.72222
-Maibara,Tokaido_Shinkansen,1964,Shiga,445.9,JR_Central,滋賀県,大津市,35.00444,135.86833
-Kyoto,Tokaido_Shinkansen,1964,Kyoto,513.6,JR_Central,京都府,京都市,35.021390000000004,135.75556
-Shin-Osaka,Tokaido_Shinkansen�Sanyo_Shinkansen,1964,Osaka,552.6,JR_Central,大阪府,大阪市,34.68639,135.52
-Shin-Kobe,Sanyo_Shinkansen,1972,Hyogo,589.5,JR_West,兵庫県,神戸市,34.691390000000006,135.18306
-Nishi-Akashi,Sanyo_Shinkansen,1972,Hyogo,612.3,JR_West,兵庫県,神戸市,34.691390000000006,135.18306
-Himeji,Sanyo_Shinkansen,1972,Hyogo,644.3,JR_West,兵庫県,神戸市,34.691390000000006,135.18306
-Aioi,Sanyo_Shinkansen,1972,Hyogo,665.0,JR_West,兵庫県,神戸市,34.691390000000006,135.18306
-Okayama,Sanyo_Shinkansen,1972,Okayama,732.9,JR_West,岡山県,岡山市,34.66167,133.935
-Shin-Kurashiki,Sanyo_Shinkansen,1975,Okayama,758.1,JR_West,岡山県,岡山市,34.66167,133.935
-Fukuyama,Sanyo_Shinkansen,1975,Hiroshima,791.2,JR_West,広島県,広島市,34.396390000000004,132.45944
-Shin-Onomichi,Sanyo_Shinkansen,1988,Hiroshima,811.3,JR_West,広島県,広島市,34.396390000000004,132.45944
-Mihara,Sanyo_Shinkansen,1975,Hiroshima,822.8,JR_West,広島県,広島市,34.396390000000004,132.45944
-Higashi-Hiroshima,Sanyo_Shinkansen,1988,Hiroshima,862.4,JR_West,広島県,広島市,34.396390000000004,132.45944
-Hiroshima,Sanyo_Shinkansen,1975,Hiroshima,894.2,JR_West,広島県,広島市,34.396390000000004,132.45944
-Shin-Iwakuni,Sanyo_Shinkansen,1975,Yamaguchi,935.6,JR_West,山口県,山口市,34.18583,131.47139
-Tokuyama,Sanyo_Shinkansen,1975,Yamaguchi,982.7,JR_West,山口県,山口市,34.18583,131.47139
-Shin-Yamaguchi,Sanyo_Shinkansen,1975,Yamaguchi,1027.0,JR_West,山口県,山口市,34.18583,131.47139
-Asa,Sanyo_Shinkansen,1999,Yamaguchi,1062.1,JR_West,山口県,山口市,34.18583,131.47139
-Shin-Shimonoseki,Sanyo_Shinkansen,1975,Yamaguchi,1088.7,JR_West,山口県,山口市,34.18583,131.47139
-Kokura,Sanyo_Shinkansen,1975,Fukuoka,1107.7,JR_West,福岡県,福岡市,33.606390000000005,130.41806
-Hakata,Sanyo_Shinkansen�Kyushu_Shinkansen,1975,Fukuoka,1174.9,JR_West,福岡県,福岡市,33.606390000000005,130.41806
-Tokyo,Tohoku_Shinkansen,1991,Tokyo,0.0,JR_East,東京都,新宿区,35.689440000000005,139.69167
-Ueno,Tohoku_Shinkansen,1985,Tokyo,3.6,JR_East,東京都,新宿区,35.689440000000005,139.69167
-Omiya,Tohoku_Shinkansen�Joetsu_Shinkansen,1982,Saitama,30.3,JR_East,埼玉県,さいたま市,35.85694,139.64889
-Oyama,Tohoku_Shinkansen,1982,Tochigi,80.6,JR_East,栃木県,宇都宮市,36.56583,139.88361
-Utsunomiya,Tohoku_Shinkansen,1982,Tochigi,109.5,JR_East,栃木県,宇都宮市,36.56583,139.88361
-Nasushiobara,Tohoku_Shinkansen,1982,Tochigi,157.8,JR_East,栃木県,宇都宮市,36.56583,139.88361
-Shin-Shirakawa,Tohoku_Shinkansen,1982,Fukushima,185.4,JR_East,福島県,福島市,37.75,140.46778
-Koriyama,Tohoku_Shinkansen,1982,Fukushima,226.7,JR_East,福島県,福島市,37.75,140.46778
-Fukushima,Tohoku_Shinkansen�Yamagata_Shinkansen,1982,Fukushima,272.8,JR_East,福島県,福島市,37.75,140.46778
-Shiroishi-Zao,Tohoku_Shinkansen,1982,Miyagi,306.8,JR_East,宮城県,仙台市,38.26889,140.87194
-Sendai,Tohoku_Shinkansen,1982,Miyagi,351.8,JR_East,宮城県,仙台市,38.26889,140.87194
-Furukawa,Tohoku_Shinkansen,1982,Miyagi,395.0,JR_East,宮城県,仙台市,38.26889,140.87194
-Kurikoma-Kogen,Tohoku_Shinkansen,1990,Miyagi,416.2,JR_East,宮城県,仙台市,38.26889,140.87194
-Ichinoseki,Tohoku_Shinkansen,1982,Iwate,445.1,JR_East,岩手県,盛岡市,39.70361,141.1525
-Mizusawa-Esashi,Tohoku_Shinkansen,1985,Iwate,470.1,JR_East,岩手県,盛岡市,39.70361,141.1525
-Kitakami,Tohoku_Shinkansen,1982,Iwate,487.5,JR_East,岩手県,盛岡市,39.70361,141.1525
-Shin-Hanamaki,Tohoku_Shinkansen,1985,Iwate,500.0,JR_East,岩手県,盛岡市,39.70361,141.1525
-Morioka,Tohoku_Shinkansen�Akita_Shinkansen,1982,Iwate,535.3,JR_East,岩手県,盛岡市,39.70361,141.1525
-iwate-Numakunai,Tohoku_Shinkansen,2002,Iwate,566.4,JR_East,岩手県,盛岡市,39.70361,141.1525
-Ninohe,Tohoku_Shinkansen,2002,Iwate,601.0,JR_East,岩手県,盛岡市,39.70361,141.1525
-Hachinohe,Tohoku_Shinkansen,2002,Aomori,631.9,JR_East,青森県,青森市,40.82444,140.74
-Shichinohe-Towada,Tohoku_Shinkansen,2010,Aomori,668.0,JR_East,青森県,青森市,40.82444,140.74
-Shin-Aomori,Tohoku_Shinkansen�Hokkaido_Shinkansen,2010,Aomori,713.7,JR_East,青森県,青森市,40.82444,140.74
-Kumagaya,Joetsu_Shinkansen,1982,Saitama,64.7,JR_East,埼玉県,さいたま市,35.85694,139.64889
-Honjo-Waseda,Joetsu_Shinkansen,2004,Saitama,86.0,JR_East,埼玉県,さいたま市,35.85694,139.64889
-Takasaki,Joetsu_Shinkansen�Hokuriku_Shinkansen,1982,Gunma,105,JR_East,群馬県,前橋市,36.39111,139.06083
-Jomo-Kogen,Joetsu_Shinkansen,1982,Gunma,151.6,JR_East,群馬県,前橋市,36.39111,139.06083
-Echigo-Yuzawa,Joetsu_Shinkansen,1982,Niigata,199.2,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Urasa,Joetsu_Shinkansen,1982,Niigata,228.9,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Nagaoka,Joetsu_Shinkansen,1982,Niigata,270.6,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Tsubame-Sanjo,Joetsu_Shinkansen,1982,Niigata,293.8,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Niigata,Joetsu_Shinkansen,1982,Niigata,333.9,JR_East,新潟県,新潟市,37.90222,139.02361000000002
-Yonezawa,Yamagata_Shinkansen,1992,Yamagata,312.9,JR_East,山形県,山形市,38.24056,140.36333
-Takahata,Yamagata_Shinkansen,1992,Yamagata,322.7,JR_East,山形県,山形市,38.24056,140.36333
-Akayu,Yamagata_Shinkansen,1992,Yamagata,328.9,JR_East,山形県,山形市,38.24056,140.36333
-Kaminoyama-Onsen,Yamagata_Shinkansen,1992,Yamagata,347.8,JR_East,山形県,山形市,38.24056,140.36333
-Yamagata,Yamagata_Shinkansen,1992,Yamagata,359.9,JR_East,山形県,山形市,38.24056,140.36333
-Tendo,Yamagata_Shinkansen,1999,Yamagata,373.2,JR_East,山形県,山形市,38.24056,140.36333
-Sakuranbo-Higashine,Yamagata_Shinkansen,1999,Yamagata,380.9,JR_East,山形県,山形市,38.24056,140.36333
-Murayama,Yamagata_Shinkansen,1999,Yamagata,386.3,JR_East,山形県,山形市,38.24056,140.36333
+station_name,shinkansen_line,year,prefecture,distance_from_tokyo_st,company,latitude,longitude
+Tokyo,Tokaido_Shinkansen,1964,Tokyo (東京都),0.0,JR_Central,35.689440000000005,139.69167
+Shinagawa,Tokaido_Shinkansen,2003,Tokyo (東京都),6.8,JR_Central,35.689440000000005,139.69167
+Shin-Yokohama,Tokaido_Shinkansen,1964,Kanagawa (神奈川県),28.8,JR_Central,35.44778,139.6425
+Odawara,Tokaido_Shinkansen,1964,Kanagawa (神奈川県),83.9,JR_Central,35.44778,139.6425
+Atami,Tokaido_Shinkansen,1964,Shizuoka (静岡県),104.6,JR_Central,34.97694,138.38306
+Mishima,Tokaido_Shinkansen,1969,Shizuoka (静岡県),120.7,JR_Central,34.97694,138.38306
+Shin-Fuji,Tokaido_Shinkansen,1988,Shizuoka (静岡県),146.2,JR_Central,34.97694,138.38306
+Shizuoka,Tokaido_Shinkansen,1964,Shizuoka (静岡県),180.2,JR_Central,34.97694,138.38306
+Kakegawa,Tokaido_Shinkansen,1988,Shizuoka (静岡県),229.3,JR_Central,34.97694,138.38306
+Hamamatsu,Tokaido_Shinkansen,1964,Shizuoka (静岡県),257.1,JR_Central,34.97694,138.38306
+Toyohashi,Tokaido_Shinkansen,1964,Aichi (愛知県),293.6,JR_Central,35.18028,136.90667
+Mikawa-Anjo,Tokaido_Shinkansen,1988,Aichi (愛知県),336.3,JR_Central,35.18028,136.90667
+Nagoya,Tokaido_Shinkansen,1964,Aichi (愛知県),336.0,JR_Central,35.18028,136.90667
+Gifu-Hashima,Tokaido_Shinkansen,1964,Gifu (岐阜県),396.3,JR_Central,35.39111,136.72222
+Maibara,Tokaido_Shinkansen,1964,Shiga (滋賀県),445.9,JR_Central,35.00444,135.86833
+Kyoto,Tokaido_Shinkansen,1964,Kyoto (京都府),513.6,JR_Central,35.021390000000004,135.75556
+Shin-Osaka,Tokaido_Shinkansen — Sanyo_Shinkansen,1964,Osaka (大阪府),552.6,JR_Central,34.68639,135.52
+Shin-Kobe,Sanyo_Shinkansen,1972,Hyogo (兵庫県),589.5,JR_West,34.691390000000006,135.18306
+Nishi-Akashi,Sanyo_Shinkansen,1972,Hyogo (兵庫県),612.3,JR_West,34.691390000000006,135.18306
+Himeji,Sanyo_Shinkansen,1972,Hyogo (兵庫県),644.3,JR_West,34.691390000000006,135.18306
+Aioi,Sanyo_Shinkansen,1972,Hyogo (兵庫県),665.0,JR_West,34.691390000000006,135.18306
+Okayama,Sanyo_Shinkansen,1972,Okayama (岡山県),732.9,JR_West,34.66167,133.935
+Shin-Kurashiki,Sanyo_Shinkansen,1975,Okayama (岡山県),758.1,JR_West,34.66167,133.935
+Fukuyama,Sanyo_Shinkansen,1975,Hiroshima (広島県),791.2,JR_West,34.396390000000004,132.45944
+Shin-Onomichi,Sanyo_Shinkansen,1988,Hiroshima (広島県),811.3,JR_West,34.396390000000004,132.45944
+Mihara,Sanyo_Shinkansen,1975,Hiroshima (広島県),822.8,JR_West,34.396390000000004,132.45944
+Higashi-Hiroshima,Sanyo_Shinkansen,1988,Hiroshima (広島県),862.4,JR_West34.396390000000004,132.45944
+Hiroshima,Sanyo_Shinkansen,1975,Hiroshima (広島県),894.2,JR_West,34.396390000000004,132.45944
+Shin-Iwakuni,Sanyo_Shinkansen,1975,Yamaguchi (山口県),935.6,JR_West,34.18583,131.47139
+Tokuyama,Sanyo_Shinkansen,1975,Yamaguchi (山口県),982.7,JR_West,34.18583,131.47139
+Shin-Yamaguchi,Sanyo_Shinkansen,1975,Yamaguchi (山口県),1027.0,JR_West,34.18583,131.47139
+Asa,Sanyo_Shinkansen,1999,Yamaguchi (山口県),1062.1,JR_West,34.18583,131.47139
+Shin-Shimonoseki,Sanyo_Shinkansen,1975,Yamaguchi (山口県),1088.7,JR_West,34.18583,131.47139
+Kokura,Sanyo_Shinkansen,1975,Fukuoka (福岡県),1107.7,JR_West,33.606390000000005,130.41806
+Hakata,Sanyo_Shinkansen — Kyushu_Shinkansen,1975,Fukuoka (福岡県),1174.9,JR_West,33.606390000000005,130.41806
+Tokyo,Tohoku_Shinkansen,1991,Tokyo (東京都),0.0,JR_East,35.689440000000005,139.69167
+Ueno,Tohoku_Shinkansen,1985,Tokyo (東京都),3.6,JR_East,35.689440000000005,139.69167
+Omiya,Tohoku_Shinkansen — Joetsu_Shinkansen,1982,Saitama (埼玉県),30.3,JR_East,35.85694,139.64889
+Oyama,Tohoku_Shinkansen,1982,Tochigi (栃木県),80.6,JR_East,36.56583,139.88361
+Utsunomiya,Tohoku_Shinkansen,1982,Tochigi (栃木県),109.5,JR_East,36.56583,139.88361
+Nasushiobara,Tohoku_Shinkansen,1982,Tochigi (栃木県),157.8,JR_East,36.56583,139.88361
+Shin-Shirakawa,Tohoku_Shinkansen,1982,Fukushima (福島県),185.4,JR_East,37.75,140.46778
+Koriyama,Tohoku_Shinkansen,1982,Fukushima (福島県),226.7,JR_East,37.75,140.46778
+Fukushima,Tohoku_Shinkansen — Yamagata_Shinkansen,1982,Fukushima (福島県),272.8,JR_East,37.75,140.46778
+Shiroishi-Zao,Tohoku_Shinkansen,1982,Miyagi (宮城県),306.8,JR_East,38.26889,140.87194
+Sendai,Tohoku_Shinkansen,1982,Miyagi (宮城県),351.8,JR_East,38.26889,140.87194
+Furukawa,Tohoku_Shinkansen,1982,Miyagi (宮城県),395.0,JR_East,38.26889,140.87194
+Kurikoma-Kogen,Tohoku_Shinkansen,1990,Miyagi (宮城県),416.2,JR_East,38.26889,140.87194
+Ichinoseki,Tohoku_Shinkansen,1982,Iwate (岩手県),445.1,JR_East,39.70361,141.1525
+Mizusawa-Esashi,Tohoku_Shinkansen,1985,Iwate (岩手県),470.1,JR_East,39.70361,141.1525
+Kitakami,Tohoku_Shinkansen,1982,Iwate (岩手県),487.5,JR_East,39.70361,141.1525
+Shin-Hanamaki,Tohoku_Shinkansen,1985,Iwate (岩手県),500.0,JR_East,39.70361,141.1525
+Morioka,Tohoku_Shinkansen — Akita_Shinkansen,1982,Iwate (岩手県),535.3,JR_East,39.70361,141.1525
+iwate-Numakunai,Tohoku_Shinkansen,2002,Iwate (岩手県),566.4,JR_East,39.70361,141.1525
+Ninohe,Tohoku_Shinkansen,2002,Iwate (岩手県),601.0,JR_East,39.70361,141.1525
+Hachinohe,Tohoku_Shinkansen,2002,Aomori (青森県),631.9,JR_East,40.82444,140.74
+Shichinohe-Towada,Tohoku_Shinkansen,2010,Aomori (青森県),668.0,JR_East,40.82444,140.74
+Shin-Aomori,Tohoku_Shinkansen — Hokkaido_Shinkansen,2010,Aomori (青森県),713.7,JR_East,40.82444,140.74
+Kumagaya,Joetsu_Shinkansen,1982,Saitama (埼玉県),64.7,JR_East,35.85694,139.64889
+Honjo-Waseda,Joetsu_Shinkansen,2004,Saitama (埼玉県),86.0,JR_East,35.85694,139.64889
+Takasaki,Joetsu_Shinkansen — Hokuriku_Shinkansen,1982,Gunma (群馬県),105,JR_East,36.39111,139.06083
+Jomo-Kogen,Joetsu_Shinkansen,1982,Gunma (群馬県),151.6,JR_East,36.39111,139.06083
+Echigo-Yuzawa,Joetsu_Shinkansen,1982,Niigata (新潟県),199.2,JR_East,37.90222,139.02361000000002
+Urasa,Joetsu_Shinkansen,1982,Niigata (新潟県),228.9,JR_East,37.90222,139.02361000000002
+Nagaoka,Joetsu_Shinkansen,1982,Niigata (新潟県),270.6,JR_East,37.90222,139.02361000000002
+Tsubame-Sanjo,Joetsu_Shinkansen,1982,Niigata (新潟県),293.8,JR_East,37.90222,139.02361000000002
+Niigata,Joetsu_Shinkansen,1982,Niigata (新潟県),333.9,JR_East,37.90222,139.02361000000002
+Yonezawa,Yamagata_Shinkansen,1992,Yamagata (山形県),312.9,JR_East,38.24056,140.36333
+Takahata,Yamagata_Shinkansen,1992,Yamagata (山形県),322.7,JR_East,38.24056,140.36333
+Akayu,Yamagata_Shinkansen,1992,Yamagata (山形県),328.9,JR_East,38.24056,140.36333
+Kaminoyama-Onsen,Yamagata_Shinkansen,1992,Yamagata (山形県),347.8,JR_East,38.24056,140.36333
+Yamagata,Yamagata_Shinkansen,1992,Yamagata (山形県),359.9,JR_East,38.24056,140.36333
+Tendo,Yamagata_Shinkansen,1999,Yamagata (山形県),373.2,JR_East,38.24056,140.36333
+Sakuranbo-Higashine,Yamagata_Shinkansen,1999,Yamagata (山形県),380.9,JR_East,38.24056,140.36333
+Murayama,Yamagata_Shinkansen,1999,Yamagata (山形県),386.3,JR_East,38.24056,140.36333
 Oishida,Yamagata_Shinkansen,1999,Yamagata,399.7,JR_East,山形県,山形市,38.24056,140.36333
 Shinjo,Yamagata_Shinkansen,1999,Yamagata,421.4,JR_East,山形県,山形市,38.24056,140.36333
 Shizukuishi,Akita_Shinkansen,1997,Iwate,551.3,JR_East,岩手県,盛岡市,39.70361,141.1525
