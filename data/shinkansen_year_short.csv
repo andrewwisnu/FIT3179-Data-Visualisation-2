@@ -19,7 +19,9 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Akita,5
 2015,2015,Akita,5
 2016,2016,Akita,5
+2017,2017,Akita,5
 2016,2016,Hokkaido,3
+2017,2017,Hokkaido,3
 1997,1997,Hokuriku,5
 1998,1998,Hokuriku,5
 1999,1999,Hokuriku,5
@@ -40,6 +42,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Hokuriku,5
 2015,2015,Hokuriku,12
 2016,2016,Hokuriku,12
+2017,2017,Hokuriku,12
 1982,1982,Joetsu,8
 1983,1983,Joetsu,8
 1984,1984,Joetsu,8
@@ -75,6 +78,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Joetsu,9
 2015,2015,Joetsu,9
 2016,2016,Joetsu,9
+2017,2017,Joetsu,9
 2004,2004,Kyushu,5
 2005,2005,Kyushu,5
 2006,2006,Kyushu,5
@@ -88,6 +92,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Kyushu,11
 2015,2015,Kyushu,11
 2016,2016,Kyushu,11
+2017,2017,Kyushu,11
 1972,1972,Sanyo,5
 1973,1973,Sanyo,5
 1974,1974,Sanyo,5
@@ -133,6 +138,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Sanyo,18
 2015,2015,Sanyo,18
 2016,2016,Sanyo,18
+2017,2017,Sanyo,18
 1982,1982,Tohoku,13
 1983,1983,Tohoku,13
 1984,1984,Tohoku,13
@@ -168,6 +174,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Tohoku,23
 2015,2015,Tohoku,23
 2016,2016,Tohoku,23
+2017,2017,Tohoku,23
 1964,1964,Tokaido,12
 1965,1965,Tokaido,12
 1966,1966,Tokaido,12
@@ -221,6 +228,7 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Tokaido,17
 2015,2015,Tokaido,17
 2016,2016,Tokaido,17
+2017,2017,Tokaido,17
 1992,1992,Yamagata,5
 1993,1993,Yamagata,5
 1994,1994,Yamagata,5
@@ -246,3 +254,4 @@ year,year_placeholder,shinkansen_line,no_station
 2014,2014,Yamagata,10
 2015,2015,Yamagata,10
 2016,2016,Yamagata,10
+2017,2017,Yamagata,10
