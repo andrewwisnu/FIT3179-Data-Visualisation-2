@@ -8,9 +8,9 @@ Sanyo,Thousand Passengers / Day,88,2,174,2,300,644.0,88
 Tohoku,Top Speed (km/h),320,240,320,3,320,713.7,103
 Tohoku,Distance (km),713.7,148.8,713.7,3,320,713.7,103
 Tohoku,Thousand Passengers / Day,103,2,174,3,320,713.7,103
-Joestu,Top Speed (km/h),240,240,320,4,240,333.9,49
+Joetsu,Top Speed (km/h),240,240,320,4,240,333.9,49
 Joetsu,Distance (km),333.9,148.8,713.7,4,240,333.9,49
-Joestsu,Thousand Passengers / Day,49,2,174,4,240,333.9,49
+Joetsu,Thousand Passengers / Day,49,2,174,4,240,333.9,49
 Hokuriku,Top Speed (km/h),260,240,320,5,260,450.5,33
 Hokuriku,Distance (km),450.5,148.8,713.7,5,260,450.5,33
 Hokuriku,Thousand Passengers / Day,33,2,174,5,260,450.5,33
