@@ -1,0 +1,22 @@
+Shinkansen Line,Measure,Value
+Tokaido,Top Speed (km/h),285
+Tokaido,Distance (km),552.6
+Tokaido,Thousand Passengers / Day,174
+Sanyo,Top Speed (km/h),300
+Sanyo,Distance (km),644.0
+Sanyo,Thousand Passengers / Day,88
+Tohoku,Top Speed (km/h),320
+Tohoku,Distance (km),713.7
+Tohoku,Thousand Passengers / Day,103
+Joestu,Top Speed (km/h),240
+Joetsu,Distance (km),333.9
+Joestsu,Thousand Passengers / Day,49
+Hokuriku,Top Speed (km/h),260
+Hokuriku,Distance (km),450.5
+Hokuriku,Thousand Passengers / Day,33
+Kyushu,Top Speed (km/h),260
+Kyushu,Distance (km),288.9
+Kyushu,Thousand Passengers / Day,19
+Hokkaido,Top Speed (km/h),260
+Hokkaido,Distance (km),148.8
+Hokkaido,Thousand Passengers / Day,2
