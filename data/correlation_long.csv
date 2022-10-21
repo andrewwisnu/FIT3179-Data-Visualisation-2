@@ -1,22 +1,22 @@
-shinkansen_line,measure,value,min,max,index
-Tokaido,Top Speed (km/h),285,240,320,1
-Tokaido,Distance (km),552.6,148.8,713.7,1
-Tokaido,Thousand Passengers / Day,174,2,174,1
-Sanyo,Top Speed (km/h),300,240,320,2
-Sanyo,Distance (km),644.0,148.8,713.7,2
-Sanyo,Thousand Passengers / Day,88,2,174,2
-Tohoku,Top Speed (km/h),320,240,320,3
-Tohoku,Distance (km),713.7,148.8,713.7,3
-Tohoku,Thousand Passengers / Day,103,2,174,3
-Joestu,Top Speed (km/h),240,240,320,4
-Joetsu,Distance (km),333.9,148.8,713.7,4
-Joestsu,Thousand Passengers / Day,49,2,174,4
-Hokuriku,Top Speed (km/h),260,240,320,5
-Hokuriku,Distance (km),450.5,148.8,713.7,5
-Hokuriku,Thousand Passengers / Day,33,2,174,5
-Kyushu,Top Speed (km/h),260,240,320,6
-Kyushu,Distance (km),288.9,148.8,713.7,6
-Kyushu,Thousand Passengers / Day,19,2,174,6
-Hokkaido,Top Speed (km/h),260,240,320,7
-Hokkaido,Distance (km),148.8,148.8,713.7,7
-Hokkaido,Thousand Passengers / Day,2,2,174,7
+shinkansen_line,measure,value,min,max,index,speed,distance,passenger
+Tokaido,Top Speed (km/h),285,240,320,1,285,552.6,174
+Tokaido,Distance (km),552.6,148.8,713.7,1,285,552.6,174
+Tokaido,Thousand Passengers / Day,174,2,174,1,285,552.6,174
+Sanyo,Top Speed (km/h),300,240,320,2,300,644.0,88
+Sanyo,Distance (km),644.0,148.8,713.7,2,300,644.0,88
+Sanyo,Thousand Passengers / Day,88,2,174,2,300,644.0,88
+Tohoku,Top Speed (km/h),320,240,320,3,320,713.7,103
+Tohoku,Distance (km),713.7,148.8,713.7,3,320,713.7,103
+Tohoku,Thousand Passengers / Day,103,2,174,3,320,713.7,103
+Joestu,Top Speed (km/h),240,240,320,4,240,333.9,49
+Joetsu,Distance (km),333.9,148.8,713.7,4,240,333.9,49
+Joestsu,Thousand Passengers / Day,49,2,174,4,240,333.9,49
+Hokuriku,Top Speed (km/h),260,240,320,5,260,450.5,33
+Hokuriku,Distance (km),450.5,148.8,713.7,5,260,450.5,33
+Hokuriku,Thousand Passengers / Day,33,2,174,5,260,450.5,33
+Kyushu,Top Speed (km/h),260,240,320,6,260,288.9,19
+Kyushu,Distance (km),288.9,148.8,713.7,6,260,288.9,19
+Kyushu,Thousand Passengers / Day,19,2,174,6,260,288.9,19
+Hokkaido,Top Speed (km/h),260,240,320,7,260,148.8,2
+Hokkaido,Distance (km),148.8,148.8,713.7,7,260,148.8,2
+Hokkaido,Thousand Passengers / Day,2,2,174,7,260,148.8,2
