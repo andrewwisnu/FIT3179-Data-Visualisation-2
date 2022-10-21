@@ -1,4 +1,4 @@
-line,speed,distance,ridership
+Shinkansen Line,Speed (km/h),Distance (km),Thousand Passengers / Day
 Tokaido,285,552.6,174
 Sanyo,300,644.0,88
 Tohoku,320,713.7,103
