@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A word cloud visualization depicting Vega research paper abstracts.",
+  "width": 430,
+  "height": 250,
+  "padding": 0,
+
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        "JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_Central,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_West,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_East,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Kyushu,JR_Hokkaido,JR_Hokkaido,JR_Hokkaido"
+      ],
+      "transform": [
+        {
+          "type": "countpattern",
+          "field": "data",
+          "case": "upper",
+          "pattern": "[\\w']{3,}",
+          "stopwords": "()"
+        },
+        {
+          "type": "formula", "as": "angle",
+          "expr": "[0][~~(random() * 3)]"
+        },
+        {
+          "type": "formula", "as": "weight",
+          "expr": "if(datum.text=='JR_EAST', 600, 300)"
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "text"},
+      "range": ["#fa9fb5", "#dd3497", "#7a0177"]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"field": "text"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "text"},
+          "tooltip": {"signal": "'Number of Stations: ' + datum.count"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      },
+      "transform": [
+        {
+          "type": "wordcloud",
+          "size": [430, 250],
+          "text": {"field": "text"},
+          "rotate": {"field": "datum.angle"},
+          "font": "Helvetica Neue, Arial",
+          "fontSize": {"field": "datum.count"},
+          "fontWeight": {"field": "datum.weight"},
+          "fontSizeRange": [7, 50],
+          "padding": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/andrewwisnu/FIT3179-Data-Visualisation-2/main/data/population_shinkansen_combination.csv"
+  },
+  "hconcat": [
+    {
+      "transform": [{"filter": {"param": "brush"}}],
+      "width":530,
+      "height": 450,
+      "title": "Number of Stations per Shinkansen Lines Throughout the Years",
+      "encoding": {
+        "x": {
+          "timeUnit": "year",
+          "field": "year",
+          "scale": {"domain": [1960, 2017]},
+          "axis": {"tickCount": 5, "grid": false},
+          "title": "Year"
+        },
+        "y": {
+          "field": "no_station",
+          "type": "quantitative",
+          "scale": {"domain": [0, 26]},
+          "axis": {"tickCount": 7, "grid": false},
+          "title": "Number of Stations"
+        },
+        "color": {
+          "condition": {
+            "scale": {
+              "range": [
+                "#a6cee3",
+                "#1f78b4",
+                "#fdbf6f",
+                "#33a02c",
+                "#6a3d9a",
+                "#fb9a99",
+                "#b2df8a",
+                "#ff7f00",
+                "#cab2d6",
+                "#e31a1c",
+                "#bebada",
+                "#b15928"
+              ]
+            },
+            "param": "hover",
+            "field": "shinkansen_line",
+            "type": "nominal",
+            "legend": null
+          },
+          "value": "lightgrey"
+        },
+        "opacity": {
+          "condition": {"param": "hover", "value": 0.8},
+          "value": 0.2
+        },
+        "tooltip": [
+          {"field": "year_placeholder", "type": "ordinal", "title": "Year"},
+          {
+            "field": "no_station",
+            "type": "quantitative",
+            "title": "No. of Stations"
+          },
+          {
+            "field": "shinkansen_line",
+            "type": "nominal",
+            "title": "Shinkansen Line"
+          }
+        ]
+      },
+      "layer": [
+        {
+          "description": "transparent layer to make it easier to trigger selection",
+          "params": [
+            {
+              "name": "hover",
+              "select": {
+                "type": "point",
+                "fields": ["shinkansen_line"],
+                "on": "mouseover"
+              }
+            }
+          ],
+          "mark": {"type": "line", "strokeWidth": 8, "stroke": "transparent"}
+        },
+        {"mark": "line"},
+        {
+          "params": [
+            {
+              "name": "hover_2",
+              "select": {
+                "type": "point",
+                "on": "mouseover",
+                "clear": "mouseout"
+              }
+            }
+          ],
+          "mark": {"type": "circle", "tooltip": true},
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "test": {"param": "hover_2", "empty": false},
+                "value": 1
+              },
+              "value": 0
+            },
+            "size": {
+              "condition": {
+                "test": {"param": "hover_2", "empty": false},
+                "value": 48
+              },
+              "value": 100
+            }
+          }
+        },
+        {
+          "encoding": {
+            "x": {"aggregate": "max", "field": "year"},
+            "y": {"aggregate": {"argmax": "year"}, "field": "no_station"}
+          },
+          "layer": [
+            {
+              "transform": [{"filter": "datum.year_placeholder == 2017"}],
+              "mark": {"type": "circle"}
+            },
+            {
+              "transform": [{"filter": "datum.year_placeholder == 2017"}],
+              "mark": {"type": "text", "align": "left", "dx": 5},
+              "encoding": {
+                "text": {"field": "shinkansen_line", "type": "nominal"}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "vconcat": [
+        {
+          "transform": [
+            {"filter": "datum.type!=='Total'"},
+            {"filter": {"param": "brush"}}
+          ],
+          "width": 530,
+          "height": 295,
+          "title": "Population Throughout the Years",
+          "layer": [
+            {
+              "encoding": {
+                "x": {
+                  "timeUnit": "year",
+                  "field": "year",
+                  "scale": {"domain": [1960, 2017]},
+                  "axis": {"tickCount": 5, "grid": false},
+                  "title": "Year"
+                },
+                "y": {
+                  "field": "population",
+                  "type": "quantitative",
+                  "scale": {"domain": [45000000, 68000000]},
+                  "axis": {"tickCount": 7, "grid": false, "format": ".2s"},
+                  "title": "Number of Stations"
+                },
+                "color": {
+                  "field": "type",
+                  "type": "nominal",
+                  "title": "Shinkansen Line"
+                }
+              },
+              "layer": [
+                {"mark": {"type": "line"}},
+                {
+                  "params": [
+                    {
+                      "name": "label",
+                      "select": {
+                        "type": "point",
+                        "encodings": ["x"],
+                        "nearest": true,
+                        "on": "mouseover"
+                      }
+                    }
+                  ],
+                  "mark": "point",
+                  "encoding": {
+                    "opacity": {
+                      "condition": {
+                        "param": "label",
+                        "empty": false,
+                        "value": 1
+                      },
+                      "value": 0
+                    }
+                  }
+                },
+                {
+                  "encoding": {
+                    "x": {"aggregate": "max", "field": "year"},
+                    "y": {
+                      "aggregate": {"argmax": "year"},
+                      "field": "population"
+                    }
+                  },
+                  "layer": [
+                    {
+                      "transform": [
+                        {"filter": "datum.year_placeholder == 2017"}
+                      ],
+                      "mark": {"type": "circle"}
+                    },
+                    {
+                      "transform": [
+                        {"filter": "datum.year_placeholder == 2017"}
+                      ],
+                      "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 4,
+                        "dy": -5
+                      },
+                      "encoding": {"text": {"field": "type", "type": "nominal"}}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "transform": [{"filter": {"param": "label", "empty": false}}],
+              "layer": [
+                {
+                  "mark": {"type": "rule", "color": "lightgrey"},
+                  "encoding": {
+                    "x": {
+                      "type": "temporal",
+                      "field": "year",
+                      "aggregate": "min"
+                    }
+                  }
+                },
+                {
+                  "encoding": {
+                    "text": {
+                      "type": "quantitative",
+                      "field": "population",
+                      "format": ".4s"
+                    },
+                    "x": {"type": "temporal", "field": "year"},
+                    "y": {"type": "quantitative", "field": "population"}
+                  },
+                  "layer": [
+                    {
+                      "mark": {
+                        "type": "text",
+                        "stroke": "white",
+                        "strokeWidth": 2,
+                        "align": "left",
+                        "dx": 5,
+                        "dy": 8
+                      }
+                    },
+                    {
+                      "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 5,
+                        "dy": 8
+                      },
+                      "encoding": {
+                        "color": {"type": "nominal", "field": "type"}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "transform": [
+            {"filter": "datum.type!=='Female'"},
+            {"filter": "datum.type!=='Male'"}
+          ],
+          "width": 530,
+          "height": 80,
+          "layer": [
+            {
+              "encoding": {
+                "x": {
+                  "timeUnit": "year",
+                  "field": "year",
+                  "scale": {"domain": [1960, 2017]},
+                  "axis": {"tickCount": 5, "grid": false},
+                  "title": "Year"
+                },
+                "y": {
+                  "field": "population",
+                  "type": "quantitative",
+                  "scale": {"domain": [90000000, 150000000]},
+                  "axis": {"tickCount": 3, "grid": false, "format": ".2s"},
+                  "title": null
+                },
+                "color": {
+                  "field": "type",
+                  "type": "nominal",
+                  "title": "Shinkansen Line"
+                }
+              },
+              "layer": [
+                {"mark": {"type": "line"}},
+                {
+                  "params": [
+                    {
+                      "name": "label",
+                      "select": {
+                        "type": "point",
+                        "encodings": ["x"],
+                        "nearest": true,
+                        "on": "mouseover"
+                      }
+                    },
+                    {
+                      "name": "brush",
+                      "select": {"type": "interval", "encodings": ["x"]}
+                    }
+                  ],
+                  "mark": "point",
+                  "encoding": {
+                    "opacity": {
+                      "condition": {
+                        "param": "label",
+                        "empty": false,
+                        "value": 1
+                      },
+                      "value": 0
+                    }
+                  }
+                },
+                {
+                  "encoding": {
+                    "x": {"aggregate": "max", "field": "year"},
+                    "y": {
+                      "aggregate": {"argmax": "year"},
+                      "field": "population"
+                    }
+                  },
+                  "layer": [
+                    {
+                      "transform": [
+                        {"filter": "datum.year_placeholder == 2017"}
+                      ],
+                      "mark": {"type": "circle"}
+                    },
+                    {
+                      "transform": [
+                        {"filter": "datum.year_placeholder == 2017"}
+                      ],
+                      "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 4,
+                        "dy": -5
+                      },
+                      "encoding": {"text": {"field": "type", "type": "nominal"}}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "transform": [{"filter": {"param": "label", "empty": false}}],
+              "layer": [
+                {
+                  "mark": {"type": "rule", "color": "lightgrey"},
+                  "encoding": {
+                    "x": {
+                      "type": "temporal",
+                      "field": "year",
+                      "aggregate": "min"
+                    }
+                  }
+                },
+                {
+                  "encoding": {
+                    "text": {
+                      "type": "quantitative",
+                      "field": "population",
+                      "format": ".4s"
+                    },
+                    "x": {"type": "temporal", "field": "year"},
+                    "y": {"type": "quantitative", "field": "population"}
+                  },
+                  "layer": [
+                    {
+                      "mark": {
+                        "type": "text",
+                        "stroke": "white",
+                        "strokeWidth": 2,
+                        "align": "left",
+                        "dx": 5,
+                        "dy": 8
+                      }
+                    },
+                    {
+                      "mark": {
+                        "type": "text",
+                        "align": "left",
+                        "dx": 5,
+                        "dy": 8
+                      },
+                      "encoding": {
+                        "color": {"type": "nominal", "field": "type"}
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {"view": {"stroke": null}, "concat": {"spacing": 40}}
+}

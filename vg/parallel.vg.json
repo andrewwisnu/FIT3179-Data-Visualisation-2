@@ -1,0 +1,236 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Though Vega-Lite supports only one scale per axes, one can create a parallel coordinate plot by folding variables, using `joinaggregate` to normalize their values and using ticks and rules to manually create axes.",
+    "data": {
+        "url": "https://raw.githubusercontent.com/andrewwisnu/FIT3179-Data-Visualisation-2/main/data/correlation_long.csv"
+    },
+    "width": 600,
+    "height": 480,
+    "title":"Correlation Between Performace Measures of Different Shinkansen Lines",
+    "transform": [
+        {
+            "calculate": "(datum.value - datum.min) / (datum.max-datum.min)",
+            "as": "norm_val"
+        },
+        {
+            "calculate": "(datum.min + datum.max) / 2",
+            "as": "mid"
+        }
+    ],
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "color": "#ccc"
+            },
+            "encoding": {
+                "detail": {
+                    "aggregate": "count"
+                },
+                "x": {
+                    "field": "measure"
+                }
+            }
+        },
+        {
+            "params": [
+                {
+                    "name": "shinkansen_highlight",
+                    "select": {
+                        "type": "point",
+                        "fields": [
+                            "shinkansen_line"
+                        ]
+                    },
+                    "bind": "legend"
+                }
+            ],
+            "mark": "line",
+            "encoding": {
+                "color": {
+                    "type": "nominal",
+                    "field": "shinkansen_line",
+                    "title": [
+                        "Shinkansen Line"
+                    ],
+                    "scale": {
+                        "range": [
+                "#fb9a99",
+                "#a6cee3",
+                "#fdbf6f",
+                "#33a02c",
+                "#6a3d9a",
+                "#1f78b4",
+                "#b2df8a",
+                "#ff7f00",
+                "#cab2d6",
+                "#e31a1c",
+                "#bebada",
+                "#b15928"
+              ]
+                    }
+                },
+                "detail": {
+                    "type": "nominal",
+                    "field": "index"
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "shinkansen_highlight",
+                        "value": 0.9
+                    },
+                    "value": 0.1
+                },
+                "x": {
+                    "type": "nominal",
+                    "field": "measure"
+                },
+                "y": {
+                    "type": "quantitative",
+                    "field": "norm_val",
+                    "axis": null
+                },
+                "tooltip": [
+                    {
+                        "type": "quantitative",
+                        "field": "speed",
+                        "title": "Top Speed (km/h)"
+                    },
+                    {
+                        "type": "quantitative",
+                        "field": "distance",
+                        "title": "Distance Covered (km)"
+                    },
+                    {
+                        "type": "quantitative",
+                        "field": "passenger",
+                        "title": "Passengers (Thousand/Day)"
+                    }
+                ]
+            }
+        },
+        {
+            "encoding": {
+                "x": {
+                    "type": "nominal",
+                    "field": "measure"
+                },
+                "y": {
+                    "value": 0
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "text",
+                        "style": "label"
+                    },
+                    "encoding": {
+                        "text": {
+                            "aggregate": "max",
+                            "field": "max"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "tick",
+                        "style": "tick",
+                        "size": 8,
+                        "color": "#ccc"
+                    }
+                }
+            ]
+        },
+        {
+            "encoding": {
+                "x": {
+                    "type": "nominal",
+                    "field": "measure"
+                },
+                "y": {
+                    "value": 150
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "text",
+                        "style": "label"
+                    },
+                    "encoding": {
+                        "text": {
+                            "aggregate": "min",
+                            "field": "mid"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "tick",
+                        "style": "tick",
+                        "size": 8,
+                        "color": "#ccc"
+                    }
+                }
+            ]
+        },
+        {
+            "encoding": {
+                "x": {
+                    "type": "nominal",
+                    "field": "measure"
+                },
+                "y": {
+                    "value": 300
+                }
+            },
+            "layer": [
+                {
+                    "mark": {
+                        "type": "text",
+                        "style": "label"
+                    },
+                    "encoding": {
+                        "text": {
+                            "aggregate": "min",
+                            "field": "min"
+                        }
+                    }
+                },
+                {
+                    "mark": {
+                        "type": "tick",
+                        "style": "tick",
+                        "size": 8,
+                        "color": "#ccc"
+                    }
+                }
+            ]
+        }
+    ],
+    "config": {
+        "axisX": {
+            "domain": false,
+            "labelAngle": 0,
+            "tickColor": "#ccc",
+            "title": null
+        },
+        "view": {
+            "stroke": null
+        },
+        "style": {
+            "label": {
+                "baseline": "middle",
+                "align": "right",
+                "dx": -5
+            },
+            "tick": {
+                "orient": "horizontal"
+            }
+        },
+        "legend": {
+            "offset": -70
+        }
+    }
+}

@@ -11,7 +11,7 @@ body {
 }
 
 .page {
-    width: 850px;
+    width: 1280px;
     background-color: white;
     margin: auto;
     padding: 50px;
@@ -36,9 +36,50 @@ h1 {
 }
 
 .pure-g {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .small-font {
     font-size: 14px;
+}
+
+.desc{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 30px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.desc2{
+    font-size: 20px;
+    text-align: justify;
+    padding-right: 30px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.desc_center{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 40px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bold_blue {
+    font-weight: bold;
+    color:#ae017e;
+}
+
+.interactivity {
+    font-weight: bold;
+    color: #ae017e;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
 }

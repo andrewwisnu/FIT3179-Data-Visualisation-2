@@ -75,7 +75,8 @@
                   "#7a0177",
                   "#49006a"
                 ]
-              }
+              },
+              "legend":{"offset":-645}
             },
             "tooltip": [
               {
@@ -113,7 +114,7 @@
             },
             {"filter": "datum.ranking == 1"},
             {
-              "calculate": "'Most Number of Stations is in; Yamagata Prefecture; with 10 Stations' ",
+              "calculate": "'Each Dot Represents the Approximate; Location of the Prefecture; ;Station Locations are Spread; Throughout Each Prefecture ' ",
               "as": "text_annotation_raw"
             },
             {
@@ -124,14 +125,16 @@
           "mark": {
             "type": "text",
             "align": "center",
-            "dx": 217,
-            "dy": -3,
+            "dx": -80,
+            "dy": -80,
             "baseline": "middle",
-            "fontStyle": "italic"
+            "fontStyle": "italic",
+            "fontSize": 12
           },
           "encoding": {"text": {"field": "text_annotation"}}
         }
       ]
     }
-  ]
+  ],
+  "config": {"view": {"stroke": null}}
 }
