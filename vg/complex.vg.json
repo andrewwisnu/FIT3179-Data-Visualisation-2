@@ -158,7 +158,7 @@
                   "type": "quantitative",
                   "scale": {"domain": [45000000, 68000000]},
                   "axis": {"tickCount": 7, "grid": false, "format": ".2s"},
-                  "title": "Number of Stations"
+                  "title": "Number of People"
                 },
                 "color": {
                   "field": "type",
